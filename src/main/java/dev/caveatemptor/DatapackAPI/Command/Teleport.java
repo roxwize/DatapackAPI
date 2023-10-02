@@ -46,12 +46,10 @@ public class Teleport implements Command {
      */
     @Override
     public String generate() {
-        String generated = "teleport " + targetSelector.toString();
-
-        generated += location + " ";
+        String generated = "teleport " + targetSelector.toString() + " " + location;
 
         if (rotation != null) {
-            generated += rotation.toString();
+            generated += " " + rotation.toString();
         }
 
         return generated;
