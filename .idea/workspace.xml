@@ -8,22 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Command/Teleport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Target/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Target/TargetPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Target/TargetSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Vector/Vector2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Vector/Vector3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DataPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Datapack/Datapack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Function/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Namespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/DatapackAPI/Namespace/Namespace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/TargetSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/caveatemptor/Teleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +59,23 @@
       <option name="presentableId" value="Default" />
       <updated>1696128836121</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added javadocs">
+      <option name="closed" value="true" />
+      <created>1696287136522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696287136523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added javadocs">
+      <option name="closed" value="true" />
+      <created>1696287239204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696287239204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added javadocs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added javadocs" />
   </component>
 </project>
