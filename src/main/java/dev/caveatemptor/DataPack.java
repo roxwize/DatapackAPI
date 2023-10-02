@@ -54,7 +54,8 @@ public class DataPack {
                     "    \"pack_format\": 18,\n" +
                     "    \"description\": \"" + description + "\"\n" +
                     "  }\n" +
-                    "}");
+                    "}"
+            );
             fileWriter.close();
 
             for (Namespace namespace : namespaces) {
