@@ -49,12 +49,12 @@ public class DataPack {
             mcmeta.createNewFile();
             FileWriter fileWriter = new FileWriter(mcmeta.getPath());
             fileWriter.write("" +
-                    "{\n" +
-                    "  \"pack\": {\n" +
-                    "    \"pack_format\": 18,\n" +
-                    "    \"description\": \"" + description + "\"\n" +
-                    "  }\n" +
-                    "}"
+                "{\n" +
+                "  \"pack\": {\n" +
+                "    \"pack_format\": 18,\n" +
+                "    \"description\": \"" + description + "\"\n" +
+                "  }\n" +
+                "}"
             );
             fileWriter.close();
 
