@@ -11,7 +11,7 @@ import dev.caveatemptor.DatapackAPI.Vector.Vector3;
 
 public class Main {
     public static void main(String[] args) {
-        Datapack dataPack = new Datapack("TESTPACK", "Hello World!");
+        Datapack dataPack = new Datapack("testpack", "Hello World!");
 
         Namespace helloWorld = new Namespace("TestPacK");
 
