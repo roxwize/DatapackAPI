@@ -5,6 +5,8 @@ import dev.caveatemptor.DatapackAPI.Function.Function;
 import dev.caveatemptor.DatapackAPI.Namespace.Namespace;
 
 import java.io.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class Datapack {
     private final List<Namespace> namespaces;
     private final String name;
     private final String description;
+    private final List<String> authors = new ArrayList<>();
 
 
     /**
@@ -28,6 +31,36 @@ public class Datapack {
         this.name = name;
         this.description = description;
         namespaces = new ArrayList<>();
+    }
+
+    /**
+     *
+     * @param name Name of the datapack.
+     * @param description Description of the datapack.
+     * @param author Author of the datapack.
+     */
+    public Datapack(String name, String description, String author) {
+        name = name.toLowerCase();
+
+        this.name = name;
+        this.description = description;
+        namespaces = new ArrayList<>();
+        authors.add(author);
+    }
+
+    /**
+     *
+     * @param name Name of the datapack.
+     * @param description Description of the datapack.
+     * @param authors Authors of the datapack.
+     */
+    public Datapack(String name, String description, String[] authors) {
+        name = name.toLowerCase();
+
+        this.name = name;
+        this.description = description;
+        namespaces = new ArrayList<>();
+        this.authors.addAll(List.of(authors));
     }
 
 
@@ -77,8 +110,21 @@ public class Datapack {
         File mcmeta = new File("pack/pack.mcmeta");
 
         try {
+            // create the geninfo file
+            File geninfo = new File("pack/geninfo.txt");
+            geninfo.createNewFile();
+            FileWriter fileWriter = new FileWriter(geninfo.getPath());
+            fileWriter.write("" +
+                    "This file is not part of the datapack. Feel free to edit or remove it.\n\n" +
+                    "Datapack Name: " + name + "\n" +
+                    "Author(s): " + authors.toString() + "\n" +
+                    "Generated: " + DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDateTime.now())
+            );
+            fileWriter.close();
+
+            // create mcmeta file
             mcmeta.createNewFile();
-            FileWriter fileWriter = new FileWriter(mcmeta.getPath());
+            fileWriter = new FileWriter(mcmeta.getPath());
             fileWriter.write("" +
                     "{\n" +
                     "  \"pack\": {\n" +
