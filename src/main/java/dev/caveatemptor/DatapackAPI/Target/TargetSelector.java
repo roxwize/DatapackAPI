@@ -1,20 +1,49 @@
 package dev.caveatemptor.DatapackAPI.Target;
 
-public enum TargetSelector implements dev.caveatemptor.DatapackAPI.Target.Target {
-    ALL("@a"),
-    NEAREST("@p"),
-    RANDOM("@r"),
-    SELF("@s");
+import java.util.ArrayList;
+import java.util.List;
 
-    private final String selector;
+public class TargetSelector implements Target {
+    private final TargetSelectorType targetSelectorType;
+    private List<TargetSelectorArgument> targetSelectorArguments = new ArrayList<>();
+
 
     /**
-     * // TODO: 10/2/2023 Replace selector with a better name.
-     * @param selector The string representation of the TargetSelector.
+     *
+     * @param targetSelectorType The target selector type.
      */
-    TargetSelector(String selector) {
-        this.selector = selector;
+    public TargetSelector(TargetSelectorType targetSelectorType) {
+        this.targetSelectorType = targetSelectorType;
     }
+
+    /**
+     *
+     * @param targetSelectorType The target selector type.
+     * @param targetSelectorArguments The target selector arguments.
+     */
+    public TargetSelector(TargetSelectorType targetSelectorType, List<TargetSelectorArgument> targetSelectorArguments) {
+        this.targetSelectorType = targetSelectorType;
+        this.targetSelectorArguments = targetSelectorArguments;
+    }
+
+
+    /**
+     *
+     * @return The selector type.
+     */
+    public TargetSelectorType getTargetSelectorType() {
+        return targetSelectorType;
+    }
+
+
+    /**
+     *
+     * @return The arguments of this selector.
+     */
+    public List<TargetSelectorArgument> getTargetSelectorArguments() {
+        return targetSelectorArguments;
+    }
+
 
     /**
      *
@@ -22,6 +51,12 @@ public enum TargetSelector implements dev.caveatemptor.DatapackAPI.Target.Target
      */
     @Override
     public String toString() {
-        return selector;
+        StringBuilder result = new StringBuilder(targetSelectorType.toString());
+
+        for (TargetSelectorArgument argument : targetSelectorArguments) {
+            result.append(argument.toString());
+        }
+
+        return result.toString();
     }
 }
