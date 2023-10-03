@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TargetSelector implements Target {
     private final TargetSelectorType targetSelectorType;
-    private List<TargetSelectorArgument> targetSelectorArguments = new ArrayList<>();
+    private final List<TargetSelectorArgument> targetSelectorArguments = new ArrayList<>();
 
 
     /**
@@ -23,7 +23,12 @@ public class TargetSelector implements Target {
      */
     public TargetSelector(TargetSelectorType targetSelectorType, List<TargetSelectorArgument> targetSelectorArguments) {
         this.targetSelectorType = targetSelectorType;
-        this.targetSelectorArguments = targetSelectorArguments;
+        this.targetSelectorArguments.addAll(targetSelectorArguments);
+    }
+
+    public TargetSelector(TargetSelectorType targetSelectorType, TargetSelectorArgument targetSelectorArgument) {
+        this.targetSelectorType = targetSelectorType;
+        this.targetSelectorArguments.add(targetSelectorArgument);
     }
 
 

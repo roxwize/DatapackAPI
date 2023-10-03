@@ -10,19 +10,19 @@ import dev.caveatemptor.DatapackAPI.Vector.Vector3;
 /**
  * Represents the teleport command.
  */
-public class Teleport implements Command {
-    Target target;
+public class Teleport implements dev.caveatemptor.DatapackAPI.Command.Command {
+    Target targetSelector;
     Vector3 location;
     Vector2 rotation;
 
 
     /**
      *
-     * @param target Defines what entities will be selected as a target.
+     * @param targetSelector Defines what entities will be selected as a target.
      * @param location The location to teleport the target(s) to.
      */
-    public Teleport(Target target, Vector3 location) {
-        this.target = target;
+    public Teleport(Target targetSelector, Vector3 location) {
+        this.targetSelector = targetSelector;
         this.location = location;
     }
 
@@ -34,7 +34,7 @@ public class Teleport implements Command {
      * @param rotation The rotation to set the target(s) to.
      */
     public Teleport(Target targetSelector, Vector3 location, Vector2 rotation) {
-        this.target = targetSelector;
+        this.targetSelector = targetSelector;
         this.location = location;
         this.rotation = rotation;
     }
@@ -46,7 +46,7 @@ public class Teleport implements Command {
      */
     @Override
     public String generate() {
-        String generated = "teleport " + target.toString() + " " + location;
+        String generated = "teleport " + targetSelector.toString() + " " + location;
 
         if (rotation != null) {
             generated += " " + rotation;
