@@ -2,6 +2,9 @@ package dev.caveatemptor.DatapackAPI.Target.TargetPlayer;
 
 import dev.caveatemptor.DatapackAPI.Target.Target;
 
+/**
+ * The target player for a command.
+ */
 public class TargetPlayer implements Target {
     String name;
 

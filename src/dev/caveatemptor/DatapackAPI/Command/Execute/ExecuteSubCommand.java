@@ -2,6 +2,10 @@ package dev.caveatemptor.DatapackAPI.Command.Execute;
 
 import dev.caveatemptor.DatapackAPI.Command.Command;
 
+
+/**
+ * Represents a subcommand for the execute command.
+ */
 public class ExecuteSubCommand implements Command {
     private final ExecuteSubCommandType type;
     private final String value;

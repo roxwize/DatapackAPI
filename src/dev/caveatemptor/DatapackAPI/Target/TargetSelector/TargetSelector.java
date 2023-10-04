@@ -5,6 +5,10 @@ import dev.caveatemptor.DatapackAPI.Target.Target;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Selects the entities a command will affect.
+ */
 public class TargetSelector implements Target {
     private final TargetSelectorType targetSelectorType;
     private final List<TargetSelectorArgument> targetSelectorArguments = new ArrayList<>();

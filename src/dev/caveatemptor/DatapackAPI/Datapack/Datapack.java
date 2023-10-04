@@ -119,6 +119,7 @@ public class Datapack {
                     "Datapack Name: " + name + "\n" +
                     "Author(s): " + authors.toString() + "\n" +
                     "Generated: " + DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDateTime.now())
+                    // TODO: add errors to geninfo
             );
             fileWriter.close();
 

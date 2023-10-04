@@ -2,6 +2,10 @@ package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
 
 import dev.caveatemptor.DatapackAPI.Target.Target;
 
+
+/**
+ * An argument for a targetSelector.
+ */
 public class TargetSelectorArgument implements Target {
     private TargetSelectorArgumentType argumentType;
     private String argumentValue;
@@ -53,7 +57,7 @@ public class TargetSelectorArgument implements Target {
 
     /**
      *
-     * @return Whether or not the target selector is valid and will work in-game.
+     * @return Whether the target selector is valid and will work in-game.
      *
      */
     public boolean isValid() { // TODO: finish this
