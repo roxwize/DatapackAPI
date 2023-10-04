@@ -20,7 +20,7 @@ public class TargetPlayer implements Target {
      *
      * @return The player name.
      */
-    public String toString() {
+    public String generate() {
         return name;
     }
 }
