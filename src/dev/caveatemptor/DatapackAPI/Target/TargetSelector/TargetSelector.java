@@ -61,7 +61,7 @@ public class TargetSelector implements Target {
      * @return The string representation of the TargetSelector.
      */
     @Override
-    public String toString() {
+    public String generate() {
         StringBuilder result = new StringBuilder(targetSelectorType.toString());
 
         for (TargetSelectorArgument argument : targetSelectorArguments) {

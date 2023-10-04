@@ -66,7 +66,7 @@ public class TargetSelectorArgument implements Target {
 
 
     @Override
-    public String toString() {
+    public String generate() {
         return "[" + argumentType.name().toLowerCase() + "=" + argumentValue + "]";
     }
 }
