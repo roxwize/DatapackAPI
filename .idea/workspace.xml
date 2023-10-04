@@ -8,8 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="Fixed bug in TargetSelector">
+      <change afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Datapack/Datapack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Datapack/Datapack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelectorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelectorArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgumentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelectorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +79,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -79,18 +92,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/wn10091617/IdeaProjects/DatapackAPI/build.gradle",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wn10091617/IdeaProjects/DatapackAPI/build.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wn10091617\IdeaProjects\DatapackAPI" />
@@ -134,7 +147,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
@@ -224,5 +237,30 @@
     <MESSAGE value="Fixed Teleport.java" />
     <MESSAGE value="Fixed bug in TargetSelector" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in TargetSelector" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java</url>
+          <line>26</line>
+          <properties class="dev.caveatemptor.DatapackAPI.Command.Execute.ExecuteSubCommand" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

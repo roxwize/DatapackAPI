@@ -4,7 +4,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-Main.java
+dev.caveatemptor.DatapackAPI.Main.java
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

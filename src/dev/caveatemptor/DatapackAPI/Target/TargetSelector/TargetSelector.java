@@ -1,4 +1,6 @@
-package dev.caveatemptor.DatapackAPI.Target;
+package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
+
+import dev.caveatemptor.DatapackAPI.Target.Target;
 
 import java.util.ArrayList;
 import java.util.List;

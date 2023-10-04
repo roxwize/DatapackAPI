@@ -1,4 +1,6 @@
-package dev.caveatemptor.DatapackAPI.Target;
+package dev.caveatemptor.DatapackAPI.Target.TargetPlayer;
+
+import dev.caveatemptor.DatapackAPI.Target.Target;
 
 public class TargetPlayer implements Target {
     String name;

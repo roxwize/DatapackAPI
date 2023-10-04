@@ -1,4 +1,6 @@
-package dev.caveatemptor.DatapackAPI.Target;
+package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
+
+import dev.caveatemptor.DatapackAPI.Target.Target;
 
 public class TargetSelectorArgument implements Target {
     private TargetSelectorArgumentType argumentType;
@@ -13,6 +15,7 @@ public class TargetSelectorArgument implements Target {
      */
 
     // TODO: Implement the rest of the arguments // https://minecraft.fandom.com/wiki/Target_selectors
+    // TODO: Error checking
     public TargetSelectorArgument(TargetSelectorArgumentType argumentType, int argumentValue) {
         if (argumentType != TargetSelectorArgumentType.X
                 && argumentType != TargetSelectorArgumentType.Y
