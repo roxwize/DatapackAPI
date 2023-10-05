@@ -5,13 +5,12 @@ package dev.caveatemptor.DatapackAPI.Vector;
  * A 3D vector, useful for storing locations and other 3D values.
  */
 public class Vector3 implements Vector {
-    private int x;
-    private int y;
-    private int z;
+    private int x, y, z;
+    private boolean xRelative, yRelative, zRelative;
 
 
     /**
-     *
+     * Creates a 3D vector with the given x, y, and z values.
      * @param x The X component of the vector.
      * @param y The Y component of the vector.
      * @param z The Z component of the vector.
@@ -20,6 +19,26 @@ public class Vector3 implements Vector {
         this.x = x;
         this.y = y;
         this.z = z;
+
+        this.xRelative = false;
+        this.yRelative = false;
+        this.zRelative = false;
+    }
+
+    /**
+     * Creates a 3D vector with the given x, y, and z values, and whether each value is relative to the entity.
+     * @param x The X component of the vector.
+     * @param y The Y component of the vector.
+     * @param z The Z component of the vector.
+     */
+    public Vector3(int x, int y, int z, boolean xRelative, boolean yRelative, boolean zRelative) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+
+        this.xRelative = xRelative;
+        this.yRelative = yRelative;
+        this.zRelative = zRelative;
     }
 
 
@@ -77,6 +96,55 @@ public class Vector3 implements Vector {
     public boolean setZ(int z) {
         this.z = z;
         return true;
+    }
+
+
+    /**
+     * Whether the X value is relative to the entity.
+     * @return Whether the X value is relative to the entity.
+     */
+    public boolean isxRelative() {
+        return xRelative;
+    }
+
+    /**
+     * Set whether the X value is relative to the entity.
+     * @param xRelative Whether the X value is relative to the entity.
+     */
+    public void setxRelative(boolean xRelative) {
+        this.xRelative = xRelative;
+    }
+
+    /**
+     * Whether the U value is relative to the entity.
+     * @return Whether the Y value is relative to the entity.
+     */
+    public boolean isyRelative() {
+        return yRelative;
+    }
+
+    /**
+     * Set whether the Y value is relative to the entity.
+     * @param yRelative Whether the Y value is relative to the entity.
+     */
+    public void setyRelative(boolean yRelative) {
+        this.yRelative = yRelative;
+    }
+
+    /**
+     * Whether the Z value is relative to the entity.
+     * @return Whether the Z value is relative to the entity.
+     */
+    public boolean iszRelative() {
+        return zRelative;
+    }
+
+    /**
+     * Set whether the Z value is relative to the entity.
+     * @param zRelative Whether the Z value is relative to the entity.
+     */
+    public void setzRelative(boolean zRelative) {
+        this.zRelative = zRelative;
     }
 
 
