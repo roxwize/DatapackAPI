@@ -96,6 +96,7 @@
       <recent name="C:\Users\wn10091617\IdeaProjects\DatapackAPI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea\DatapackAPI\docs\site" />
       <recent name="C:\Users\wn10091617\IdeaProjects\DatapackAPI" />
       <recent name="C:\Users\wn10091617\IdeaProjects\DatapackAPI\src" />
       <recent name="C:\Users\wn10091617\IdeaProjects\DatapackAPI\src\main\java\dev\caveatemptor\DatapackAPI" />
@@ -219,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696466693107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added documentation site.">
+      <option name="closed" value="true" />
+      <created>1696468603003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696468603003</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Moved site">
+      <option name="closed" value="true" />
+      <created>1696468771817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696468771817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +259,8 @@
     <MESSAGE value="Began implementing execute command" />
     <MESSAGE value="Changed generate() i" />
     <MESSAGE value="Added javadocs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added javadocs." />
+    <MESSAGE value="Added documentation site." />
+    <MESSAGE value="Moved site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved site" />
   </component>
 </project>
