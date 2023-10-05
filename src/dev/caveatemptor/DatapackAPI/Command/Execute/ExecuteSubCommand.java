@@ -1,6 +1,7 @@
 package dev.caveatemptor.DatapackAPI.Command.Execute;
 
 import dev.caveatemptor.DatapackAPI.Command.Command;
+import dev.caveatemptor.DatapackAPI.Entity.Entity;
 import dev.caveatemptor.DatapackAPI.Entity.Player.Player;
 
 
@@ -25,9 +26,9 @@ public class ExecuteSubCommand implements Command {
         this.value = value;
     }
 
-    public ExecuteSubCommand(ExecuteSubCommandType type, Player player) {
+    public ExecuteSubCommand(ExecuteSubCommandType type, Entity entity) {
         this.type = type;
-        this.value = player.generate();
+        this.value = entity.generate();
     }
 
     /**
