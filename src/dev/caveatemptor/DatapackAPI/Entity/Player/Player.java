@@ -1,6 +1,6 @@
-package Entity.Player;
+package dev.caveatemptor.DatapackAPI.Entity.Player;
 
-import Entity.Entity;
+import dev.caveatemptor.DatapackAPI.Entity.Entity;
 
 /**
  * The target player for a command.

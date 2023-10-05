@@ -1,4 +1,4 @@
-package Entity.TargetSelector;
+package dev.caveatemptor.DatapackAPI.Entity.TargetSelector;
 
 /**
  * The types of target selectors. Not fully implemented.

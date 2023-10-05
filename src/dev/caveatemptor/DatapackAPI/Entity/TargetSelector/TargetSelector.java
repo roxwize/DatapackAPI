@@ -1,6 +1,6 @@
-package Entity.TargetSelector;
+package dev.caveatemptor.DatapackAPI.Entity.TargetSelector;
 
-import Entity.Entity;
+import dev.caveatemptor.DatapackAPI.Entity.Entity;
 
 import java.util.ArrayList;
 import java.util.List;

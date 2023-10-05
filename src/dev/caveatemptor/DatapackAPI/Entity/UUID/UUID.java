@@ -1,6 +1,6 @@
-package Entity.UUID;
+package dev.caveatemptor.DatapackAPI.Entity.UUID;
 
-import Entity.Entity;
+import dev.caveatemptor.DatapackAPI.Entity.Entity;
 
 /**
  * Selects an entity by UUID
