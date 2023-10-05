@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696474069455</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added support for relative coordinates in Teleport">
+      <option name="closed" value="true" />
+      <created>1696474518303</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696474518303</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Regenerated docs">
+      <option name="closed" value="true" />
+      <created>1696474589997</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696474589997</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +328,8 @@
     <MESSAGE value="Addded documentation in Entity package" />
     <MESSAGE value="Removed setters in Vector" />
     <MESSAGE value="Added relative booleans to Vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added relative booleans to Vectors" />
+    <MESSAGE value="Added support for relative coordinates in Teleport" />
+    <MESSAGE value="Regenerated docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regenerated docs" />
   </component>
 </project>

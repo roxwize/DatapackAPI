@@ -62,10 +62,10 @@ public class TargetSelector implements Entity {
      */
     @Override
     public String generate() {
-        StringBuilder result = new StringBuilder(targetSelectorType.toString());
+        StringBuilder result = new StringBuilder(targetSelectorType.generate());
 
         for (TargetSelectorArgument argument : targetSelectorArguments) {
-            result.append(argument.toString());
+            result.append(argument.generate());
         }
 
         return result.toString();
