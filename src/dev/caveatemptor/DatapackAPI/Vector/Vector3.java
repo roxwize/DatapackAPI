@@ -153,6 +153,22 @@ public class Vector3 implements Vector {
      * @return The X, Y, and Z components of the vector separated by spaces.
      */
     public String generate() {
-        return x + " " + y + " " + z;
+        String generated = "";
+        if (xRelative) {
+            generated += "~";
+        }
+        generated += x + " ";
+
+        if (yRelative) {
+            generated += "~";
+        }
+        generated += y + " ";
+
+        if (zRelative) {
+            generated += "~";
+        }
+        generated += z;
+
+        return generated;
     }
 }
