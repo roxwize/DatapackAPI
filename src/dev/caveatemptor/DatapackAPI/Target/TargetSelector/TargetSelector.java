@@ -57,7 +57,7 @@ public class TargetSelector implements Target {
 
 
     /**
-     *
+     * Converts the TargetSelector into a String usable in mcfunctions
      * @return The string representation of the TargetSelector.
      */
     @Override

@@ -6,6 +6,12 @@ package dev.caveatemptor.DatapackAPI.Command.Execute;
  * Represents an execute subcommand type.
  */
 public enum ExecuteSubCommandType {
+    /**
+     * Run the command as a specified entity.
+     */
     AS,
+    /**
+     * Actual command to run.
+     */
     RUN
 }

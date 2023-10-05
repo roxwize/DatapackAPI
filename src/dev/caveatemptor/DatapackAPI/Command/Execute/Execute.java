@@ -12,7 +12,7 @@ public class Execute implements Command {
     ExecuteSubCommand[] subCommands;
 
     /**
-     *
+     * Creates new Execute command with the given subcommands. Use with caution, as no check is made to ensure subCommands are valid. Can fail in-game if done incorrectly. See minecraft.fandom.com/wiki/Commands/execute.
      * @param subCommands The subcommands of the execute command.
      */
     public Execute(ExecuteSubCommand[] subCommands) {
@@ -21,7 +21,7 @@ public class Execute implements Command {
 
 
     /**
-     *
+     * Converts the Execute command into a String usable in mcfunctions
      * @return Generated command for use in-game.
      */
     @Override

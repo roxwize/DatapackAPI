@@ -7,7 +7,7 @@ package dev.caveatemptor.DatapackAPI.Command;
 public interface Command {
     /**
      *
-     * @return Generates command for use in-game.
+     * @return Converts the Command into a String usable in mcfunctions
      */
     String generate();
 }

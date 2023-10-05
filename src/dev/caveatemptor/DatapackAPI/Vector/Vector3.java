@@ -4,8 +4,10 @@ package dev.caveatemptor.DatapackAPI.Vector;
 /**
  * A 3D vector, useful for storing locations and other 3D values.
  */
-public class Vector3 {
-    private int x, y, z;
+public class Vector3 implements Vector {
+    private int x;
+    private int y;
+    private int z;
 
 
     /**
@@ -79,10 +81,10 @@ public class Vector3 {
 
 
     /**
-     *
+     * Converts the vector into a String usable in mcfunctions
      * @return The X, Y, and Z components of the vector separated by spaces.
      */
-    public String toString() {
+    public String generate() {
         return x + " " + y + " " + z;
     }
 }

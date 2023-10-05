@@ -14,7 +14,7 @@ public class ExecuteSubCommand implements Command {
 
 
     /**
-     *
+     * Creates a new ExecuteSubCommand with the specified type and String value.
      * @param type The type of the subcommand.
      * @param value The value of the subcommand.
      */
@@ -24,7 +24,7 @@ public class ExecuteSubCommand implements Command {
     }
 
     /**
-     *
+     * Creates a new ExecuteSubCommand with the specified type and Command value.
      * @param type The type of the subcommand.
      * @param value The value of the subcommand.
      */
@@ -35,7 +35,7 @@ public class ExecuteSubCommand implements Command {
 
 
     /**
-     *
+     * Gets the type of the subcommand.
      * @return The type of the subcommand.
      */
     public ExecuteSubCommandType getType() {
@@ -44,7 +44,7 @@ public class ExecuteSubCommand implements Command {
 
 
     /**
-     *
+     * Gets the value of the subcommand.
      * @return The value of the subcommand.
      */
     public String getValue() {
@@ -53,7 +53,8 @@ public class ExecuteSubCommand implements Command {
 
 
     /**
-     * @return Generates command for use in-game.
+     * Converts the ExecuteSubCommand into a String usable in mcfunctions
+     * @return String usable in mcfunctions.
      */
     @Override
     public String generate() {

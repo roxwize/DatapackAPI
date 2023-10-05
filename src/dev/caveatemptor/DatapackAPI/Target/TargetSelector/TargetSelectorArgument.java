@@ -13,7 +13,7 @@ public class TargetSelectorArgument implements Target {
 
 
     /**
-     *
+     * Creates a TargetSelectorArgument. Care should be taken when using these, as there is currently no way to check if the argument created is valid. If done wrong, this will fail in-game. See minecraft.fandom.com/wiki/Target_selectors.
      * @param argumentType The Type of argument.
      * @param argumentValue The value of the argument.
      */
@@ -38,7 +38,7 @@ public class TargetSelectorArgument implements Target {
 
 
     /**
-     *
+     * The argument value.
      * @return The argument value.
      */
     public String getArgumentValue() {
@@ -47,7 +47,7 @@ public class TargetSelectorArgument implements Target {
 
 
     /**
-     *
+     * The argument type.
      * @return The argument type.
      */
     public TargetSelectorArgumentType getArgumentType() {
@@ -56,7 +56,7 @@ public class TargetSelectorArgument implements Target {
 
 
     /**
-     *
+     * Whether the target selector is valid and will work in-game.
      * @return Whether the target selector is valid and will work in-game.
      *
      */
@@ -65,6 +65,10 @@ public class TargetSelectorArgument implements Target {
     }
 
 
+    /**
+     * Converts the TargetSelectorArgument into a String usable in mcfunctions.
+     * @return String representation of the TargetSelectorArgument.
+     */
     @Override
     public String generate() {
         return "[" + argumentType.name().toLowerCase() + "=" + argumentValue + "]";

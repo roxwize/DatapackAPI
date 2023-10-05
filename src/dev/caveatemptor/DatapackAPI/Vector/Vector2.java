@@ -4,7 +4,7 @@ package dev.caveatemptor.DatapackAPI.Vector;
 /**
  * A 2D vector, useful for storing rotation and other 2D values.
  */
-public class Vector2 {
+public class Vector2 implements Vector {
     private int x, y;
 
 
@@ -58,7 +58,12 @@ public class Vector2 {
     }
 
 
-    public String toString() {
+    /**
+     * Converts the vector into a String usable in mcfunctions
+     * @return The X, Y, and Z components of the vector separated by spaces.
+     */
+    @Override
+    public String generate() {
         return x + " " + y;
     }
 }

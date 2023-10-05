@@ -7,14 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="">
+    <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="Changed generate() i">
+      <change afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/Execute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Datapack/Datapack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Datapack/Datapack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Function/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Function/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Namespace/Namespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Namespace/Namespace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Vector/Vector3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +58,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

@@ -15,7 +15,7 @@ public class Namespace {
 
 
     /**
-     *
+     * Creates a new Namespace for functions to be added to. Must be added to a Datapack to take effect.
      * @param name Name of the namespace.
      */
     public Namespace(String name) {
@@ -27,7 +27,7 @@ public class Namespace {
 
 
     /**
-     *
+     * Gets the name of the namespace.
      * @return - The name of the namespace.
      */
     public String getName() {
@@ -36,7 +36,7 @@ public class Namespace {
 
 
     /**
-     *
+     * Gets the functions in the namespace.
      * @return - The list of functions.
      */
     public List<Function> getFunctions() {
@@ -45,9 +45,9 @@ public class Namespace {
 
 
     /**
-     *
+     * Adds a function to the namespace.
      * @param function The function to add.
-     * @return  True on success, false on failure.
+     * @return True on success, false on failure.
      */
     public boolean addFunction(Function function) {
         functions.add(function);

@@ -21,7 +21,7 @@ public class Datapack {
 
 
     /**
-     *
+     * Creates a new datapack with the give name and description.
      * @param name Name of the datapack.
      * @param description Description of the datapack.
      */
@@ -34,7 +34,7 @@ public class Datapack {
     }
 
     /**
-     *
+     * Creates a new datapack with the give name, description, and author.
      * @param name Name of the datapack.
      * @param description Description of the datapack.
      * @param author Author of the datapack.
@@ -49,7 +49,7 @@ public class Datapack {
     }
 
     /**
-     *
+     * Creates a new datapack with the give name, description, and authors.
      * @param name Name of the datapack.
      * @param description Description of the datapack.
      * @param authors Authors of the datapack.
@@ -65,7 +65,7 @@ public class Datapack {
 
 
     /**
-     *
+     * Gets the list of namespaces.
      * @return The list of namespaces.
      */
     public List<Namespace> getNamespaces() {
@@ -73,7 +73,7 @@ public class Datapack {
     }
 
     /**
-     *
+     * Adds a namespace to the datapack.
      * @param namespace Namespace to add.
      * @return True if success, false if failure.
      */
@@ -84,7 +84,7 @@ public class Datapack {
 
 
     /**
-     *
+     * Gets the name of the datapack.
      * @return The name of the datapack.
      */
     public String getName() {
@@ -93,7 +93,7 @@ public class Datapack {
 
 
     /**
-     *
+     * Gets the description of the datapack.
      * @return The description of the datapack.
      */
     public String getDescription() {
@@ -105,6 +105,7 @@ public class Datapack {
      * Generates and outputs the datapack.
      */
     public void generate() {
+        // TODO: comments, cleanup
         File pack = new File("pack/");
         pack.mkdirs();
         File mcmeta = new File("pack/pack.mcmeta");
