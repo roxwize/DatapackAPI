@@ -1,6 +1,8 @@
 package Entity.TargetSelector;
 
-
+/**
+ * The types of target selectors. Not fully implemented.
+ */
 public enum TargetSelectorType {
     ALL_PLAYERS("@a"),
     NEAREST_PLAYER("@p"),

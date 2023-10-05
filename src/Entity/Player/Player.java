@@ -9,7 +9,7 @@ public class Player implements Entity {
     String name;
 
     /**
-     * Gets the player. Currently only works by name.
+     * Gets the player by name.
      * @param name The player name.
      */
     public Player(String name) {
@@ -17,7 +17,7 @@ public class Player implements Entity {
     }
 
     /**
-     * While named generate() to be consistent with the rest of the API, this simply returns the TargetPlayer's name.
+     * While named generate() to be consistent with the rest of the API, this simply returns the Players's name.
      * @return The player name.
      */
     @Override

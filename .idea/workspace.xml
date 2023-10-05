@@ -5,53 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313cb72f-a3e4-4f32-9e43-c84b2666e2fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/UUID/UUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Command/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Command/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Datapack/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Datapack/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Function/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Function/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Namespace/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Namespace/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/Target.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/Target.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgumentType.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgumentType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/TargetSelector/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Target/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Vector/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/Vector/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/caveatemptor/DatapackAPI/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Execute/ExecuteSubCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgumentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/UUID/UUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/UUID/UUID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Command/Teleport/Teleport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetPlayer/TargetPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorArgumentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/caveatemptor/DatapackAPI/Target/TargetSelector/TargetSelectorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TargetSelector/TargetSelectorType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696471253557</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Entity interface. Entities are now got by UUID, player name, or target selector.">
+      <option name="closed" value="true" />
+      <created>1696471920056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696471920056</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +297,7 @@
     <MESSAGE value="Added documentation site." />
     <MESSAGE value="Moved site" />
     <MESSAGE value="Added support for facing argument in Teleport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for facing argument in Teleport" />
+    <MESSAGE value="Added Entity interface. Entities are now got by UUID, player name, or target selector." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Entity interface. Entities are now got by UUID, player name, or target selector." />
   </component>
 </project>

@@ -1,8 +1,6 @@
 package Entity.TargetSelector;
 
 
-import Entity.Entity;
-
 /**
  * An argument for a targetSelector.
  */
