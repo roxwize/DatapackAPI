@@ -19,13 +19,18 @@ public class ExecuteSubCommand implements Command {
     /**
      * Creates a new ExecuteSubCommand with the specified type and String value.
      * @param type The type of the subcommand.
-     * @param value The value of the subcommand.
+     * @param value The value of the subcommand. Takes a String, which is probably somewhat dangerous.
      */
     public ExecuteSubCommand(ExecuteSubCommandType type, String value) {
         this.type = type;
         this.value = value;
     }
 
+    /**
+     *
+     * @param type The type of the subcommand.
+     * @param entity The value of the subcommand.
+     */
     public ExecuteSubCommand(ExecuteSubCommandType type, Entity entity) {
         this.type = type;
         this.value = entity.generate();
