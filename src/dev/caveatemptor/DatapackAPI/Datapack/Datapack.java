@@ -62,7 +62,7 @@ public class Datapack {
         namespaces = new ArrayList<>();
         this.authors.addAll(List.of(authors));
     }
-    
+
     /**
      * Gets the list of namespaces.
      * @return The list of namespaces.
