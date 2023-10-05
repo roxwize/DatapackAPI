@@ -11,6 +11,7 @@ public class ExecuteSubCommand implements Command {
     private final String value;
 
     // TODO: Error checking, invalid commands
+    // remember TargetPlayer exists
 
 
     /**
