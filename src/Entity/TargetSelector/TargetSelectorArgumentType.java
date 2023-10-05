@@ -1,4 +1,4 @@
-package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
+package Entity.TargetSelector;
 
 public enum TargetSelectorArgumentType {
     X,

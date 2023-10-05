@@ -1,6 +1,6 @@
 package dev.caveatemptor.DatapackAPI.Command.Teleport;
 
-import dev.caveatemptor.DatapackAPI.Target.Target;
+import Entity.Target.Target;
 import dev.caveatemptor.DatapackAPI.Vector.Vector2;
 import dev.caveatemptor.DatapackAPI.Vector.Vector3;
 

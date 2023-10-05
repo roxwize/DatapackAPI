@@ -1,18 +1,18 @@
-package dev.caveatemptor.DatapackAPI.Target.TargetPlayer;
+package Entity.Player;
 
-import dev.caveatemptor.DatapackAPI.Target.Target;
+import Entity.Entity;
 
 /**
  * The target player for a command.
  */
-public class TargetPlayer implements Target {
+public class Player implements Entity {
     String name;
 
     /**
      * Gets the player. Currently only works by name.
      * @param name The player name.
      */
-    public TargetPlayer(String name) {
+    public Player(String name) {
         this.name = name;
     }
 
@@ -20,6 +20,7 @@ public class TargetPlayer implements Target {
      * While named generate() to be consistent with the rest of the API, this simply returns the TargetPlayer's name.
      * @return The player name.
      */
+    @Override
     public String generate() {
         return name;
     }

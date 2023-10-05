@@ -1,12 +1,12 @@
-package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
+package Entity.TargetSelector;
 
-import dev.caveatemptor.DatapackAPI.Target.Target;
 
+import Entity.Entity;
 
 /**
  * An argument for a targetSelector.
  */
-public class TargetSelectorArgument implements Target {
+public class TargetSelectorArgument {
     private TargetSelectorArgumentType argumentType;
     private String argumentValue;
     private final boolean valid;
@@ -69,7 +69,6 @@ public class TargetSelectorArgument implements Target {
      * Converts the TargetSelectorArgument into a String usable in mcfunctions.
      * @return String representation of the TargetSelectorArgument.
      */
-    @Override
     public String generate() {
         return "[" + argumentType.name().toLowerCase() + "=" + argumentValue + "]";
     }

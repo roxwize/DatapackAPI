@@ -1,6 +1,6 @@
-package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
+package Entity.TargetSelector;
 
-import dev.caveatemptor.DatapackAPI.Target.Target;
+import Entity.Entity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Selects the entities a command will affect.
  */
-public class TargetSelector implements Target {
+public class TargetSelector implements Entity {
     private final TargetSelectorType targetSelectorType;
     private final List<TargetSelectorArgument> targetSelectorArguments = new ArrayList<>();
 

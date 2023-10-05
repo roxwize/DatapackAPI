@@ -1,9 +1,7 @@
-package dev.caveatemptor.DatapackAPI.Target.TargetSelector;
-
-import dev.caveatemptor.DatapackAPI.Target.Target;
+package Entity.TargetSelector;
 
 
-public enum TargetSelectorType implements Target {
+public enum TargetSelectorType {
     ALL_PLAYERS("@a"),
     NEAREST_PLAYER("@p"),
     RANDOM_PLAYER("@r"),

@@ -5,7 +5,7 @@ dev.caveatemptor.DatapackAPI.Command.Teleport
 dev.caveatemptor.DatapackAPI.Datapack
 dev.caveatemptor.DatapackAPI.Function
 dev.caveatemptor.DatapackAPI.Namespace
-dev.caveatemptor.DatapackAPI.Target
-dev.caveatemptor.DatapackAPI.Target.TargetPlayer
-dev.caveatemptor.DatapackAPI.Target.TargetSelector
+Entity.Target
+Entity.Target.TargetPlayer
+Entity.TargetSelector
 dev.caveatemptor.DatapackAPI.Vector
